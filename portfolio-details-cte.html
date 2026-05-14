@@ -59,7 +59,7 @@
         <li><a href="./#hero"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="./#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="./#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="./#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="./#portfolio"><i style="margin-right: 10px;" class="bi bi-code-square"></i> Portfolio</a></li>
         <li><a href="./#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
         <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
@@ -84,7 +84,7 @@
 
     <div class="social-links text-center">
       <a href="#" class="github"><i class="bi bi-github"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/luiz-t4vares" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
   </header>
 
@@ -118,17 +118,17 @@
                   <span class="year">2024</span>
                 </div>
                 <h1 class="project-title">CT-e</h1>
-                <p class="project-summary">Built and contributed to the evolution of a high-performance, scalable NF-e issuance system focused on reliability and architecture.</p>
+                <p class="project-summary">Reengineered a legacy Danfe issuance system into a high-performance, scalable platform handling millions of daily requests across Brazil.</p>
                 <div class="project-tags">
                   <span class="tag">messaging</span>
                   <span class="tag">scalability</span>
-                  <span class="tag">observability</span>
+                  <span class="tag">Government</span>
                 </div>
               </div>
             </div>
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
               <div class="hero-image">
-                <img src="assets/img/portfolio/portfolio-shopeenotas.webp" alt="Project showcase" class="img-fluid" loading="lazy">
+                <img src="assets/img/portfolio/portfolio-cte.webp" alt="Project showcase" class="img-fluid" loading="lazy">
               </div>
             </div>
           </div>
@@ -139,9 +139,9 @@
             <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
               <div class="main-content">
                 <h2>Software Design</h2>
-                  <p>The system was designed to handle high-throughput NF-e issuance, enabling the company to internalize the fiscal document generation process and eliminate the dependency on third-party providers.</p>
-                  <p>The architecture supports continuous processing under heavy load, ensuring consistent performance and reliability across critical workflows.</p>
-                  <p>As one of the main contributors, I was involved in key architectural decisions, focusing on performance optimization and system evolution.</p>
+                  <p>The system was redesigned to support high-throughput CT-e issuance, replacing a legacy Python application with a more efficient and scalable architecture built in Golang.</p>
+                  <p>The new design enables continuous processing under heavy load, sustaining an average of 8 million requests per day while improving performance, reliability, and resource efficiency in a business-critical workflow. The system was also validated through rigorous stress testing to ensure stability and resilience under extreme conditions.</p>
+                  <p>I was involved throughout the entire project lifecycle and actively contributed to the implementation of new tax rules within the system.</p>
               </div>
             </div>
             <div class="col-lg-4 offset-lg-1" data-aos="fade-up" data-aos-delay="200">
@@ -152,7 +152,7 @@
                 </div>
                 <div class="spec-item">
                   <h5>Timeline</h5>
-                  <p>8 Months</p>
+                  <p>9 Months</p>
                 </div>
                 <div class="spec-item">
                   <h5>My Role</h5>
@@ -160,11 +160,11 @@
                 </div>
                 <div class="spec-item">
                   <h5>Team</h5>
-                  <p>3 Members</p>
+                  <p>5 Members</p>
                 </div>
                 <div class="spec-item">
                   <h5>Deliverables</h5>
-                  <p>CronJobs, APIs</p>
+                  <p>Microservices</p>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@
           <div class="row align-items-center">
             <div class="col-lg-5">
               <h2>Tools &amp; Technologies</h2>
-              <p>The system was designed with a strong focus on performance, using efficient communication patterns and data handling strategies to support fast, reliable processing at scale.</p>
+              <p>The project leverages a modern and efficient technology stack designed to support high performance, scalability, and reliability in a high-throughput environment.</p>
             </div>
             <div class="col-lg-6 offset-lg-1">
               <div class="tools-grid">
@@ -188,7 +188,7 @@
                     <span class="tool-item">GRPC</span>
                     <span class="tool-item">RabbitMQ</span>
                     <span class="tool-item">PostgreSQL</span>
-                    <span class="tool-item">Redis</span>
+                    <span class="tool-item">Python</span>
                   </div>
                 </div>
                 <div class="tool-category" data-aos="fade-up" data-aos-delay="250">
@@ -196,7 +196,6 @@
                   <div class="tool-list">
                     <span class="tool-item">Kubernets</span>
                     <span class="tool-item">Grafana</span>
-                    <span class="tool-item">Google Analytics</span>
                     <span class="tool-item">Cloud</span>
                   </div>
                 </div>
@@ -209,20 +208,20 @@
           <div class="metrics-container">
             <div class="metrics-header">
               <h2>Project Impact</h2>
-              <p>The system helped reduce operational costs by eliminating the need for third-party NF-e providers, while also improving the accuracy and reliability of fiscal document generation.</p>
+              <p>The system supports nationwide CT-e (DANFE) issuance. The migration to Golang improved performance and scalability, while the implementation of new tax rules ensured compliance without compromising system stability.</p>
             </div>
             <div class="metrics-grid">
               <div class="metric-card" data-aos="fade-up" data-aos-delay="150">
-                <div class="metric-value">7M+</div>
+                <div class="metric-value">8M+</div>
                 <div class="metric-label">Request per day</div>
               </div>
               <div class="metric-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="metric-value">700K+</div>
-                <div class="metric-label">Monthly cost savings</div>
+                <div class="metric-value">100%</div>
+                <div class="metric-label">Nationwide coverage</div>
               </div>
               <div class="metric-card" data-aos="fade-up" data-aos-delay="250">
-                <div class="metric-value">200K+</div>
-                <div class="metric-label">Monthly cost savings for Sellers</div>
+                <div class="metric-value">99.9% </div>
+                <div class="metric-label">Uptime</div>
               </div>
               
             </div>
@@ -262,7 +261,7 @@
       <h3 class="sitename">Luiz Tavares</h3>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-github"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/luiz-t4vares"><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
   </footer>
